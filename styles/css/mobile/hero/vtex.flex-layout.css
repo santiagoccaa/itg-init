@@ -1,0 +1,11 @@
+.flexCol--hero__content--hero{
+    align-items: center;
+    justify-content: center;
+}
+.flexCol--hero__content-text{
+    width: 138px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

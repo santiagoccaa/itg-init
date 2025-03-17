@@ -1,0 +1,9 @@
+.wrapper--header-sticky--desktop{
+    visibility: hidden;
+    display: none;
+}
+.wrapper--header-sticky--mobile{
+    visibility: hidden;
+    display: none;
+}
+

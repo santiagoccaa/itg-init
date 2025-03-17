@@ -1,0 +1,17 @@
+.flexRowContent--tablet__comprar-button {
+    border       : 1px solid black;
+    border-radius: 40px;
+    width        : 212px;
+    height       : 48px;
+}
+
+.flexCol--tablet__texts-center--content-texts {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 170px;
+}
+.flexRowContent--tablet__hero{
+    justify-content: center;
+    align-items: center;
+}

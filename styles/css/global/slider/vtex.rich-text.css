@@ -1,0 +1,33 @@
+.paragraph--desktop__slider--content-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.paragraph--description-product-card--title{
+    margin     : 0;
+    font-size  : 16px;
+    font-weight: 600;
+    color      : #1D2734;
+    position   : absolute;
+    top        : 8px;
+    left      : 8px;
+}
+
+.paragraph--description-product--description{
+    margin     : 0;
+    font-size  : 12px;
+    font-weight: 300;
+    color      : #1D2734;
+    width      : 247.97px;
+    position   : absolute;
+    bottom     : 8px;
+    left      : 8px;
+}
+
+.paragraph--title-card-product{
+    background: blue;
+}

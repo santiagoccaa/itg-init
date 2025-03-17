@@ -1,0 +1,42 @@
+.flexRow--tablet__header{
+    background: #ffffff;
+}
+
+.flexRowContent--tab-nav-content__upper-menu {
+    display    : flex;
+    align-items: center;
+}
+
+.flexRowContent--tablet__header--nav-links {
+    margin-left: 10px;
+}
+
+.flexRowContent--tablet__header--login {
+    display    : flex;
+    align-items: center;
+}
+
+.flexRowContent--tablet__header--lower-menu {
+    display      : flex;
+    align-items  : center;
+    justify-items: center;
+}
+
+.flexCol--tab-lower-menu__category {
+    justify-content: center;
+    align-items    : center;
+    height         : 47px;
+    border-bottom  : 3px solid transparent;
+    letter-spacing : 0%;
+    width          : 70px;
+}
+
+.flexCol--bottom-menu__category:hover {
+    border-bottom: 3px solid #1D2734;
+}
+
+.flexRowContent--tab-navcontent__logo{
+    display: flex;
+    align-items: center;
+    margin: 0 5px 0 0;
+}

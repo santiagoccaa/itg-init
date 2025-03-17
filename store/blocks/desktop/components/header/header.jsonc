@@ -1,0 +1,392 @@
+{
+    "flex-layout.row#desktop__header": {
+        "title": "header desktop",
+        "children": [
+            "flex-layout.col#desktop__header--navigation-content"
+        ],
+        "props": {
+            "blockClass": "desktop__header"
+        }
+    },
+    "flex-layout.col#desktop__header--navigation-content": {
+        "title": "content header",
+        "children": [
+            "flex-layout.row#navigation-content__top-menu",
+            "flex-layout.row#desktop__header--bottom-menu"
+        ]
+    },
+    "flex-layout.row#navigation-content__top-menu": {
+        "title": "header menu superior",
+        "children": [
+            "flex-layout.row#navigationcontent__logo",
+            "search-bar#top-menu--search",
+            "flex-layout.row#desktop__header--navigation-links",
+            "flex-layout.row#desktop__header--login"
+        ],
+        "props": {
+            "maxWidth": "1280px",
+            "height": "168px",
+            "blockClass": "navigation-content__top-menu"
+        }
+    },
+    "search-bar#top-menu--search": {
+        "title": "buscador del header",
+        "props":{
+            "placeholder":"Search products"
+        }
+    },
+    "flex-layout.row#navigationcontent__logo": {
+        "children": [
+            "logo#logo--menu",
+            "logo"
+        ],
+        "props": {
+            "blockClass": "navigationcontent__logo",
+            "width": "10%"
+        }
+    },
+    "logo#logo--menu": {
+        "props": {
+            "width": 132,
+            "height": 32,
+            "url": "assets/icons/menu.svg"
+        }
+    },
+    "logo": {
+        "props": {
+            "width": 132,
+            "height": 20,
+            "url": "assets/icons/icon.svg"
+        }
+    },
+    "flex-layout.row#desktop__header--navigation-links": {
+        "children": [
+            "rich-text#navigation-links__trends",
+            "rich-text#navigation-links--collection",
+            "rich-text#navigation-links--offers",
+            "rich-text#navigation-links--monday",
+            "rich-text#navigation-links--never-say-never"
+        ],
+        "props": {
+            "blockClass": "desktop__header--navigation-links",
+            "colSizing": "auto",
+            "colGap": "4"
+        }
+    },
+    "rich-text#navigation-links__trends": {
+        "props": {
+            "text": "Tendencias de ItGlobers",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--collection": {
+        "props": {
+            "text": "Colección del mes",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--offers": {
+        "props": {
+            "text": "Ofertas de enero",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--monday": {
+        "props": {
+            "text": "Cyber Monday",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--never-say-never": {
+        "props": {
+            "text": "Never say never",
+            "blockClass": "navigation-links"
+        }
+    },
+    "flex-layout.row#desktop__header--login": {
+        "children": [
+            "image#login--icon-cart",
+            "link#login--button-login"
+        ],
+        "props": {
+            "width": "15%",
+            "blockClass": "desktop__header--login"
+        }
+    },
+    "image#login--icon-cart": {
+        "props": {
+            "src": "assets/icons/cart.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "link#login--button-login": {
+        "props": {
+            "href": "/",
+            "label": "Login",
+            "blockClass": "login--button-login"
+        }
+    },
+    "flex-layout.row#desktop__header--bottom-menu": {
+        "title": "Category Navigation",
+        "children": [
+            "flex-layout.col#bottom-menu__category--food",
+            "flex-layout.col#bottom-menu__category--fitness",
+            "flex-layout.col#bottom-menu__category--arctic",
+            "flex-layout.col#bottom-menu__category--poolday",
+            "flex-layout.col#bottom-menu__category--hotel",
+            "flex-layout.col#bottom-menu__category--house",
+            "flex-layout.col#bottom-menu__category--nature",
+            "flex-layout.col#bottom-menu__category--closet",
+            "flex-layout.col#bottom-menu__category--beache",
+            "flex-layout.col#bottom-menu__category--mountaineering",
+            "flex-layout.col#bottom-menu__category--delivery"
+        ],
+        "props": {
+            "blockClass": "desktop__header--bottom-menu",
+            "colSizing": "70px"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--food": {
+        "children": [
+            "image#food--icon",
+            "rich-text#food-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#food--icon": {
+        "props": {
+            "src": "assets/img/navbar/fastfood.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#food-label": {
+        "props": {
+            "text": "Food",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--fitness": {
+        "children": [
+            "image#fitness-icon",
+            "rich-text#fitness-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#fitness-icon": {
+        "props": {
+            "src": "assets/img/navbar/fitness.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#fitness-label": {
+        "props": {
+            "text": "Fitness",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--arctic": {
+        "children": [
+            "image#arctic-icon",
+            "rich-text#arctic-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#arctic-icon": {
+        "props": {
+            "src": "assets/img/navbar/artico.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#arctic-label": {
+        "props": {
+            "text": "En el Ártico",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--poolday": {
+        "children": [
+            "image#poolday-icon",
+            "rich-text#poolday-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#poolday-icon": {
+        "props": {
+            "src": "assets/img/navbar/poolday.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#poolday-label": {
+        "props": {
+            "text": "Poolday",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--hotel": {
+        "children": [
+            "image#hotel-icon",
+            "rich-text#hotel-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#hotel-icon": {
+        "props": {
+            "src": "assets/img/navbar/hotel.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#hotel-label": {
+        "props": {
+            "text": "Hoteles",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--house": {
+        "children": [
+            "image#house-icon",
+            "rich-text#house-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#house-icon": {
+        "props": {
+            "src": "assets/img/navbar/casas.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#house-label": {
+        "props": {
+            "text": "Casas",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--nature": {
+        "children": [
+            "image#nature-icon",
+            "rich-text#nature-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#nature-icon": {
+        "props": {
+            "src": "assets/img/navbar/naturales.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#nature-label": {
+        "props": {
+            "text": "Naturales",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--closet": {
+        "children": [
+            "image#closet-icon",
+            "rich-text#closet-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#closet-icon": {
+        "props": {
+            "src": "assets/img/navbar/closet.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#closet-label": {
+        "props": {
+            "text": "Closet",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--beache": {
+        "children": [
+            "image#beache-icon",
+            "rich-text#beache-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#beache-icon": {
+        "props": {
+            "src": "assets/img/navbar/playas.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#beache-label": {
+        "props": {
+            "text": "Playas",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--mountaineering": {
+        "children": [
+            "image#mountaineering-icon",
+            "rich-text#mountaineering-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#mountaineering-icon": {
+        "props": {
+            "src": "assets/img/navbar/alpinismo.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#mountaineering-label": {
+        "props": {
+            "text": "Alpinismo",
+            "blockClass": "category-description"
+        }
+    },
+    "flex-layout.col#bottom-menu__category--delivery": {
+        "children": [
+            "image#delivery-icon",
+            "rich-text#delivery-label"
+        ],
+        "props": {
+            "blockClass": "bottom-menu__category"
+        }
+    },
+    "image#delivery-icon": {
+        "props": {
+            "src": "assets/img/navbar/delivery.svg",
+            "width": "20px",
+            "height": "20px"
+        }
+    },
+    "rich-text#delivery-label": {
+        "props": {
+            "text": "Delivery",
+            "blockClass": "category-description"
+        }
+    }
+}

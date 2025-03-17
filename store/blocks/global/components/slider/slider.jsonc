@@ -1,0 +1,296 @@
+{
+    "flex-layout.row#desktop__slider": {
+        "children": [
+            "flex-layout.col#slider--content"
+        ],
+        "props": {
+            "blockClass": "slider--content"
+        }
+    },
+    "flex-layout.col#slider--content": {
+        "children": [
+            "rich-text#desktop__slider--content-title",
+            "slider-layout#desktop__slider"
+        ]
+    },
+    "rich-text#desktop__slider--content-title": {
+        "title": "title section slider",
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "desktop__slider--content-title"
+        }
+    },
+    "slider-layout#desktop__slider": {
+        "title": "Slider home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "desktop__slider",
+            "centerModeSlidesGap": "to-the-left",
+            "centerMode":"to-the-left"
+        },
+        "children": [
+            "flex-layout.row#slider--card-1",
+            "flex-layout.row#slider--card-2",
+            "flex-layout.row#slider--card-3",
+            "flex-layout.row#slider--card-4",
+            "flex-layout.row#slider--card-5",
+            "flex-layout.row#slider--card-6",
+            "flex-layout.row#slider--card-7",
+            "flex-layout.row#slider--card-8",
+            "flex-layout.row#slider--card-9"
+        ]
+    },
+    "flex-layout.row#slider--card-1": {
+        "title": "card product #1",
+        "children": [
+            "flex-layout.col#card-1__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-2": {
+        "title": "card product #2",
+        "children": [
+            "flex-layout.col#card-2__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-3": {
+        "title": "card product #3",
+        "children": [
+            "flex-layout.col#card-3__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-4": {
+        "title": "card product #4",
+        "children": [
+            "flex-layout.col#card-4__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-5": {
+        "title": "card product #5",
+        "children": [
+            "flex-layout.col#card-5__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-6": {
+        "title": "card product #6",
+        "children": [
+            "flex-layout.col#card-6__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-7": {
+        "title": "card product #7",
+        "children": [
+            "flex-layout.col#card-7__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-8": {
+        "title": "card product #8",
+        "children": [
+            "flex-layout.col#card-8__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.row#slider--card-9": {
+        "title": "card product #9",
+        "children": [
+            "flex-layout.col#card-9__content"
+        ],
+        "props": {
+            "blockClass": "cart-product"
+        }
+    },
+    "flex-layout.col#card-1__content": {
+        "title": "content card #1",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-2__content": {
+        "title": "content card #2",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-3__content": {
+        "title": "content card #3",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-4__content": {
+        "title": "content card #4",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-5__content": {
+        "title": "content card #5",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-6__content": {
+        "title": "content card #6",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-7__content": {
+        "title": "content card #7",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-8__content": {
+        "title": "content card #8",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "flex-layout.col#card-9__content": {
+        "title": "content card #9",
+        "children": [
+            "image#content__image",
+            "flex-layout.col#content__description-product",
+            "link#content__button-view-price"
+        ],
+        "props": {
+            "width": "324px",
+            "height": "336.46px",
+            "blockClass": "content-cart"
+        }
+    },
+    "image#content__image": {
+        "title": "image card product (todas las card usas la misma)",
+        "props": {
+            "src": "assets/img/products/amazing/Crop.png",
+            "width": "324px",
+            "height": "186.62px"
+        }
+    },
+    "flex-layout.col#content__description-product": {
+        "title": "title and description product (todas las card usas el mismo)",
+        "children": [
+            "rich-text#description-product-card--title",
+            "rich-text#description-product--description",
+            "image#description-product--icon"
+        ],
+        "props": {
+            "blockClass": "content__description-product"
+        }
+    },
+    "rich-text#description-product-card--title": {
+        "title": "titulo card product",
+        "props": {
+            "text": "Heading",
+            "blockClass": "description-product-card--title"
+        }
+    },
+    "rich-text#description-product--description": {
+        "title": "Description card product",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "blockClass": "description-product--description"
+        }
+    },
+    "image#description-product--icon": {
+        "title": "icon description product",
+        "props": {
+            "src": "assets/img/products/amazing/icon.svg",
+            "width": "48.38px",
+            "height": "48.38px",
+            "blockClass": "description-product--image"
+        }
+    },
+    "link#content__button-view-price": {
+        "title": "button view product",
+        "props": {
+            "href": "/",
+            "label": "Ver Producto",
+            "blockClass": "ver-precio"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.flexRowContent--desktop__header {
+    height         : 168px;
+    position       : relative;
+    align-items    : center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.flexRowContent--navigation-content__top-menu {
+    max-height     : 56px;
+    display        : flex;
+    align-items    : center;
+    padding        : 8px 16px;
+    justify-content: space-between;
+}
+.flexCol--texts-center--content-texts{
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-top: 30%;
+}
+
+.flexRowContent--navigationcontent__logo {
+    width      : 70px;
+    display    : flex;
+    align-items: center;
+}
+
+.flexRowContent--desktop__header--login {
+    width      : 90px;
+    display    : flex;
+    align-items: center;
+}
+.flexRow--desktop__header--login{
+    display: flex;
+    justify-content: center;
+}
+
+.flexRowContent--desktop__header--bottom-menu {
+    align-items: center;
+    position   : absolute;
+    bottom     : 0;
+    left       : 0;
+}
+
+.flexCol--bottom-menu__category {
+    justify-content: center;
+    align-items    : center;
+    height         : 47px;
+    border-bottom  : 3px solid transparent;
+    letter-spacing : 0%;
+    width: 70px;
+}
+
+.flexCol--bottom-menu__category:hover {
+    border-bottom: 3px solid #1D2734;
+}
+.flexRowContent--desktop__header--navigation-links{
+    width: 600px;
+    margin-left: -150px;
+}

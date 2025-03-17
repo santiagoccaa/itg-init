@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#desktop__hero": {
+        "title": "hero section",
+        "children": [
+            "image#hero__image-left",
+            "flex-layout.col#hero__texts-center",
+            "image#hero__image-right"
+        ],
+        "props": {
+            "blockClass": "desktop__hero"
+        }
+    },
+    "image#hero__image-left": {
+        "title": "Image hero section left",
+        "props": {
+            "src": "assets/img/hero/img-left.svg",
+            "blockClass": "hero__image"
+        }
+    },
+    "image#hero__image-right": {
+        "title": "image hero section right",
+        "props": {
+            "src": "assets/img/hero/img-right.svg",
+            "blockClass": "hero__image"
+        }
+    },
+    "flex-layout.col#hero__texts-center": {
+        "title": "title, subtitle, description hero section",
+        "children": [
+            "flex-layout.col#texts-center--content-texts"
+        ]
+    },
+    "flex-layout.col#texts-center--content-texts": {
+        "title": "contenedor del texto y botón comprar",
+        "children": [
+            "rich-text#content-texts--title",
+            "rich-text#content-texts--subtitle",
+            "rich-text#content-text--description",
+            "link#hero--button-comprar"
+        ],
+        "props": {
+            "blockClass": "texts-center--content-texts"
+        }
+    },
+    "rich-text#content-texts--title": {
+        "title": "titulo",
+        "props": {
+            "text": "!WATCH",
+            "blockClass": "content-texts--title"
+        }
+    },
+    "rich-text#content-texts--subtitle": {
+        "title": "subtitulo",
+        "props": {
+            "text": "ULTRA 2",
+            "blockClass": "content-texts--subtitle",
+            "height":"5%"
+        }
+    },
+    "rich-text#content-text--description": {
+        "title": "description",
+        "props": {
+            "text": "an amazing product.",
+            "blockClass": "content-text--description"
+        }
+    },
+    "link#hero--button-comprar": {
+        "title": "button comprar",
+        "props": {
+            "href": "/",
+            "label": "Comprar",
+            "blockClass": "comprar-button"
+        }
+    }
+}

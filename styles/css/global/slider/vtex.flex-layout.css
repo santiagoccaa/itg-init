@@ -1,0 +1,23 @@
+.flexRowContent--slider--content{
+    max-width: 1,092px;
+}
+
+.flexRowContent--cart-product {
+    width          : 324px;
+    height         : 336.46px;
+    border-radius  : 12px;
+    background: #FFFFFF;
+}
+
+.flexColChild--content-cart {
+    display        : flex;
+    justify-content: center;
+    align-items    : center; 
+}
+
+.flexCol--content__description-product {
+    height  : 79.19px;
+    width   : 324px;
+    position: relative;
+    color: purple;
+}

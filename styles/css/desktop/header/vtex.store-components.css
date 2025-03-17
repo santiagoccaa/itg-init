@@ -1,0 +1,23 @@
+.searchBarContainer :global(.vtex-store-components-3-x-autoCompleteOuterContainer) {
+    max-width: 280px;
+    height   : 40px;
+    margin   : 0;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+    height       : 40px;
+}
+
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    height    : 40px;
+    background: #F0F0F2;
+    font-size : 12px;
+}
+
+
+.searchBarContainer :global(.vtex-input__suffix) {
+    border-radius: 0 40px 40px 0;
+    background   : #F0F0F2;
+}
