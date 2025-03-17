@@ -68,7 +68,7 @@
         "title": "button comprar",
         "props": {
             "href": "/",
-            "label": "Comprar",
+            "label": " ",
             "blockClass": "comprar-button"
         }
     }
