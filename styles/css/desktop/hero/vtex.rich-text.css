@@ -6,6 +6,9 @@
     transition   : border-bottom 0.5s ease-in-out;
     cursor       : pointer;
 }
+.wrapper--desktop__slider--content-title{
+    margin-top: 20px;
+}
 
 .paragraph--content-texts--title{
     font-size  : 48px;

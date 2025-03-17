@@ -13,3 +13,15 @@
     font-size: 12px;
     font-weight: 400;
 }
+.label--comprar-button{
+    text-decoration: none;
+}
+
+.flexRowContent--botonp :global(.vtex-store-link-0-x-link){
+    background: pink;
+}
+
+.flexRowContent--botonp :global(.vtex-store-link-0-x-label){
+    background: red;
+    text-decoration: none;
+}

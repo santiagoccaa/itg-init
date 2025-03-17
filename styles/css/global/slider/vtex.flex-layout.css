@@ -21,3 +21,22 @@
     position: relative;
     color: purple;
 }
+
+/*----------------------------------------------------*/
+
+.flexRowContent--botonp{
+    background: red;
+    width: 212px;
+    height: 48px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--botonp :global(.vtex-flex-layout-0-x-stretchChildrenWidth ){
+    background: blue;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}

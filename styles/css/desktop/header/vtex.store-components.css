@@ -9,13 +9,11 @@
     height       : 40px;
 }
 
-
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
     height    : 40px;
     background: #F0F0F2;
     font-size : 12px;
 }
-
 
 .searchBarContainer :global(.vtex-input__suffix) {
     border-radius: 0 40px 40px 0;

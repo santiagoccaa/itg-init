@@ -6,4 +6,28 @@
       "flex-layout.row#desktop__slider"
     ]
   }
+  // "flex-layout.row#botonp": {
+  //   "children": [
+  //     "link#texto",
+  //     "image#imagen"
+  //   ],
+  //   "props": {
+  //     "blockClass": "botonp",
+  //     "conSizing":"auto",
+  //     "colJustify":"around"
+  //   }
+  // },
+  // "link#texto": {
+  //   "props": {
+  //     "href": "/",
+  //     "label": "Comprar"
+  //   }
+  // },
+  // "image#imagen": {
+  //   "props": {
+  //     "src": "assets/img/navbar/fastfood.svg",
+  //     "width": "20px",
+  //     "height": "20px"
+  //   }
+  // }
 }
