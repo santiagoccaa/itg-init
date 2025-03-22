@@ -1,0 +1,62 @@
+.flexRow--desktop__hero {
+    height    : 422px;
+    margin-top: 168px;
+}
+
+.flexRowContent--desktop__hero {
+    background     : #F0F0F2;
+    display        : flex;
+    justify-content: center;
+    height         : 422px;
+    width          : 100%;
+}
+
+.flexRow--desktop__hero :global(.vtex-store-components-3-x-container) {
+    width          : 100%;
+    padding        : 0;
+    position       : relative;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.flexRowContent--desktop__hero {
+    position: relative;
+}
+
+.flexRow--desktop__hero :global(.vtex-store-components-3-x-imageElement--desktop__hero--image-left) {
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+    width     : 422px;
+    height    : 100%;
+    object-fit: cover;
+}
+
+.flexRow--desktop__hero :global(.vtex-store-components-3-x-imageElement--desktop__hero--image-right) {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+    width   : 422px;
+    height  : 100%;
+}
+
+.flexCol--desktop__hero--center-text {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 422px;
+}
+
+.flexColChild--desktop__hero--center-text {
+    height    : 100px;
+}
+
+.flexCol--desktop__hero--center-text :global(.vtex-flex-layout-0-x-flexColChild--desktop__hero--center-text) {
+    max-height: 40px;
+    height: auto;
+}
+
+.flexCol--desktop__hero--center-text :global(.vtex-rich-text-0-x-paragraph--center-text--title){
+    margin: 0;
+}

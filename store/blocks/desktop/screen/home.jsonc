@@ -1,33 +1,12 @@
 {
-  "responsive-layout.desktop#home": {
+  "store.home#desktop__home": {
     "children": [
-      "flex-layout.row#desktop__header",
-      "flex-layout.row#desktop__hero",
-      "flex-layout.row#desktop__slider"
+      "responsive-layout.desktop#desktop__responsive__header",
+      "responsive-layout.mobile#responsive__header",
+      "responsive-layout.desktop#desktop__hero",
+      "responsive-layout.mobile#mobile__hero",
+      "flex-layout.row#desktop__slider",
+      "flex-layout.row#desktop__products"
     ]
   }
-  // "flex-layout.row#botonp": {
-  //   "children": [
-  //     "link#texto",
-  //     "image#imagen"
-  //   ],
-  //   "props": {
-  //     "blockClass": "botonp",
-  //     "conSizing":"auto",
-  //     "colJustify":"around"
-  //   }
-  // },
-  // "link#texto": {
-  //   "props": {
-  //     "href": "/",
-  //     "label": "Comprar"
-  //   }
-  // },
-  // "image#imagen": {
-  //   "props": {
-  //     "src": "assets/img/navbar/fastfood.svg",
-  //     "width": "20px",
-  //     "height": "20px"
-  //   }
-  // }
 }

@@ -1,0 +1,58 @@
+
+.searchBarInnerContainer :global(.vtex-input-prefix__group) {
+    border       : none;
+    border-radius: 40px;
+    min-width    : 240px;
+}
+
+@media (max-width: 768px) {
+    .searchBarInnerContainer :global(.vtex-input-prefix__group) {
+        display: none;
+    }
+}
+
+.searchBarInnerContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+    background    : transparent;
+    color         : #1D2734;
+    font-size     : 12px;
+    font-weight   : 300;
+    line-height   : 100%;
+    letter-spacing: 0%;
+}
+
+.searchBarInnerContainer :global(.vtex-store-components-3-x-suffixWrapper) {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.searchBarInnerContainer :global(.vtex-store-components-3-x-searchBarIcon) {
+    position: relative;
+    padding : 0;
+}
+
+.searchBarInnerContainer :global(.vtex-store-components-3-x-searchIcon) {
+    overflow  : hidden;
+    visibility: hidden;
+}
+
+.searchBarInnerContainer :global(.vtex-store-components-3-x-searchBarIcon)::after {
+    content            : "";
+    position           : absolute;
+    top                : 0;
+    left               : 0;
+    width              : 17.24px;
+    height             : 17.24px;
+    background-image   : url("assets/img/icons/Search.svg");
+    background-size    : contain;
+    background-repeat  : no-repeat;
+    background-position: center;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    background: #F0F0F2;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    background: #F0F0F2;
+}

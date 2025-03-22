@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#desktop__slider": {
+        "children": [
+            "flex-layout.col#desktop__slider--content"
+        ],
+        "props": {
+            "blockClass": "desktop__slider"
+        }
+    },
+    "flex-layout.col#desktop__slider--content": {
+        "children": [
+            "rich-text#desktop__slider--title",
+            "slider-layout#desktop--slider"
+        ],
+        "props": {
+            "blockClass": "desktop__slider--content"
+        }
+    },
+    "rich-text#desktop__slider--title": {
+        "props": {
+            "text": "An amazing product."
+        }
+    },
+    // ------------- SLIDER
+    "slider-layout#desktop--slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "desktop--slider",
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 24
+        },
+        "children": [
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart"
+        ]
+    },
+    // ------- CART PRODUCT
+    "flex-layout.col#slider--cart": {
+        "children": [
+            "image#cart--imagen",
+            "flex-layout.col#slider--text",
+            "link#button-view-price"
+        ],
+        "props": {
+            "blockClass": "slider--cart",
+            "colSizing": "auto"
+        }
+    },
+    "image#cart--imagen": {
+        "props": {
+            "src": "assets/img/products/amazing/Crop.png",
+            "height": "186px"
+        }
+    },
+    "flex-layout.col#slider--text": {
+        "children": [
+            "rich-text#slider--text-title",
+            "rich-text#slider--text-description",
+            "image#slider--image-icon"
+        ],
+        "props": {
+            "blockClass": "slider--text"
+        }
+    },
+    "rich-text#slider--text-title": {
+        "props": {
+            "text": "Header",
+            "blockClass": "slider--text-title"
+        }
+    },
+    "rich-text#slider--text-description": {
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "blockClass": "slider--text-description"
+        }
+    },
+    "image#slider--image-icon": {
+        "props": {
+            "src": "assets/img/products/amazing/icon.svg",
+            "blockClass": "slider--image-icon"
+        }
+    },
+    "link#button-view-price": {
+        "props": {
+            "href": "/",
+            "label": " ",
+            "blockClass": "button-view-price"
+        }
+    }
+}

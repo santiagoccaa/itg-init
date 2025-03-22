@@ -1,0 +1,11 @@
+.sliderTrackContainer--mobile--slider{
+    height: 56px;
+}
+
+.sliderTrackContainer--mobile--slider :global(.vtex-slider-layout-0-x-slide--mobile--slider){
+    height: 56px;
+}
+
+.sliderLayoutContainer :global(.vtex-slider-layout-0-x-paginationDotsContainer--mobile--slider){
+    display: none;
+}

@@ -1,0 +1,37 @@
+.sliderTrack :global(.vtex-slider-layout-0-x-slide) {
+    height: 336.46px;
+}
+
+.slideChildrenContainer--desktop--slider {
+    position     : relative;
+    background   : #FFFFFF;
+    border       : 1px solid white;
+    padding      : 0;
+    border-radius: 12px;
+}
+
+.paginationDotsContainer {
+    position: absolute;
+    bottom  : -30px;
+}
+
+.paginationDotsContainer--desktop--slider :global(.vtex-slider-layout-0-x-paginationDot--desktop--slider) {
+    max-height   : 3px;
+    min-width    : 40px;
+    padding      : 0;
+    border-radius: 0%;
+}
+
+.paginationDotsContainer--desktop--slider :global(.vtex-slider-layout-0-x-paginationDot--isActive) {
+    background: #1D2734;
+}
+
+.sliderLeftArrow--desktop--slider {
+    position: absolute;
+    left    : -30px;
+}
+
+.sliderRightArrow--desktop--slider {
+    position: absolute;
+    right   : -35px;
+}

@@ -1,0 +1,80 @@
+{
+    "responsive-layout.mobile#responsive__header": {
+        "children": [
+            "flex-layout.row#mobile__header"
+        ]
+    },
+    "flex-layout.row#mobile__header": {
+        "children": [
+            "flex-layout.col#mobile__header__menu"
+        ],
+        "props": {
+            "blockClass": "mobile__header"
+        }
+    },
+    "flex-layout.col#mobile__header__menu": {
+        "children": [
+            "flex-layout.row#mobile__header__menu--mobile-upper",
+            "slider-layout#mobile__menu--slider"
+        ],
+        "props": {
+            "blockClass": "mobile__header__menu",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#mobile__header__menu--mobile-upper": {
+        "children": [
+            "image#menu--mobule-upper--logo",
+            "image#menu-upper--search",
+            "image#menu-upper--cart",
+            "login#menu-upper--button-login"
+        ],
+        "props": {
+            "blockClass": "mobile__header__menu--mobile-upper",
+            "colSizing": "auto"
+        }
+    },
+    "image#menu--mobule-upper--logo": {
+        "title": "logo it globers",
+        "props": {
+            "width": "32px",
+            "height": "16px",
+            "src": "assets/img/icons/icon.svg",
+            "blockClass": "menu--mobule-upper--logo"
+        }
+    },
+    "image#menu-upper--search": {
+        "title": "Icono search",
+        "props": {
+            "width": "20px",
+            "height": "20px",
+            "src": "assets/img/icons/Search.svg"
+        }
+    },
+    "slider-layout#mobile__menu--slider": {
+        "props": {
+            "itemsPerPage": {
+                "phone": 5
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "mobile--slider",
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 24
+        },
+        "children": [
+            "flex-layout.col#menu-categorys#1",
+            "flex-layout.col#menu-categorys#2",
+            "flex-layout.col#menu-categorys#3",
+            "flex-layout.col#menu-categorys#4",
+            "flex-layout.col#menu-categorys#5",
+            "flex-layout.col#menu-categorys#6",
+            "flex-layout.col#menu-categorys#7",
+            "flex-layout.col#menu-categorys#8",
+            "flex-layout.col#menu-categorys#9",
+            "flex-layout.col#menu-categorys#10",
+            "flex-layout.col#menu-categorys#11",
+            "flex-layout.col#menu-categorys#12"
+        ]
+    }
+}

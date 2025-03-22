@@ -1,0 +1,35 @@
+.link--button-shop {
+    background   : transparent;
+    border       : 1px solid #1D2734;
+    width        : 212px;
+    height       : 48px;
+    border-radius: 40px;
+    display      : flex;
+    align-items  : center;
+    justify-items: center;
+    margin-top   : 10px;
+}
+
+.label--button-shop {
+    width          : 100%;
+    text-align     : center;
+    text-decoration: none;
+    font-size      : 14px;
+    line-height    : 100%;
+    letter-spacing : 0%;
+    color          : #1D2734;
+}
+
+.label--button-shop::after {
+    content            : "Comprar";
+    font-size          : 14px;
+    font-weight        : 600;
+    text-decoration    : none;
+    display            : inline-flex;
+    align-items        : center;
+    background-image   : url('assets/img/icons/nav-arrow--right.svg');
+    background-size    : 20px 20px;
+    background-repeat  : no-repeat;
+    background-position: right center;
+    padding-right      : 30px;
+}

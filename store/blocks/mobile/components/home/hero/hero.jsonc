@@ -1,0 +1,67 @@
+{
+    "responsive-layout.mobile#mobile__hero": {
+        "children": [
+            "flex-layout.row#mobile__hero"
+        ]
+    },
+    "flex-layout.row#mobile__hero": {
+        "children": [
+            "flex-layout.col#mobile__hero--content"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "mobile__hero"
+        }
+    },
+    "flex-layout.col#mobile__hero--content": {
+        "children": [
+            "flex-layout.col#hero--content-text",
+            "image#hero--content--image",
+            "link#button--shop-arrow"
+        ],
+        "props": {
+            "blockClass": "mobile__hero--content",
+            "colSizing": "auto"
+        }
+    },
+    "image#hero--content--image": {
+        "props": {
+            "src": "assets/img/hero/reloj.png"
+        }
+    },
+    "flex-layout.col#hero--content-text": {
+        "children": [
+            "rich-text#hero--title",
+            "rich-text#hero--subtitle",
+            "rich-text#hero--description"
+        ],
+        "props": {
+            "blockClass": "hero--content-text"
+        }
+    },
+    "rich-text#hero--title": {
+        "props": {
+            "text": "!WATCH",
+            "blockClass": "hero--title"
+        }
+    },
+    "rich-text#hero--subtitle": {
+        "props": {
+            "text": "ULTRA 2",
+            "blockClass": "hero--subtitle"
+        }
+    },
+    "rich-text#hero--description": {
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "hero--description"
+        }
+    },
+    "link#button--shop-arrow": {
+        "props": {
+            "href": "/",
+            "label": " ",
+            "blockClass": "button--shop-arrow"
+        }
+    }
+}

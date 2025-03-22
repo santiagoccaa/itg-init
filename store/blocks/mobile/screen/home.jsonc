@@ -1,12 +1,7 @@
 {
-    "responsive-layout.phone#home": {
+    "responsive-layout.mobile#home": {
         "children": [
-            "flex-layout.row#mobile__header",
-            "flex-layout.row#mobile__hero",
-            "flex-layout.row#desktop__slider"
-        ],
-        "props": {
-            "blockClass": "home"
-        }
+            "flex-layout.row#mobile__hero"
+        ]
     }
 }

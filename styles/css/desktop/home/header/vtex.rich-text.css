@@ -1,0 +1,28 @@
+.paragraph--navbar-text {
+    font-size      : 12px;
+    font-weight    : 400;
+    line-height    : 100%;
+    letter-spacing : 0%;
+    color          : #1D2734;
+    margin         : 0;
+    text-decoration: none;
+    cursor         : pointer;
+}
+
+.paragraph--navbar-text:hover {
+    text-decoration: underline;
+}
+
+.wrapper--navbar-text {
+    margin     : 0;
+    margin-left: 12px;
+}
+
+.paragraph--category--text {
+    margin        : 0;
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    height: 15px;
+}

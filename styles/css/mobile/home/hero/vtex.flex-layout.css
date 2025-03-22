@@ -1,0 +1,24 @@
+.flexRowContent--mobile__hero {
+    height         : 480px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.flexCol--mobile__hero--content {
+    height         : 480px;
+    position       : relative;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.flexCol--hero--content-text {
+    height         : 84px;
+    position       : absolute;
+    top            : 0;
+    left           : 0;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#tablet__slider": {
+        "children": [
+            "flex-layout.col#tablet__slider--content"
+        ],
+        "props": {
+            "blockClass": "tablet__slider"
+        }
+    },
+    "flex-layout.col#tablet__slider--content": {
+        "children": [
+            "rich-text#tablet__slider--title",
+            "slider-layout#tablet--slider"
+        ],
+        "props": {
+            "blockClass": "tablet__slider--content"
+        }
+    },
+    "rich-text#tablet__slider--title": {
+        "props": {
+            "text": "An amazing product."
+        }
+    },
+    // ------------- SLIDER
+    "slider-layout#tablet--slider": {
+        "props": {
+            "itemsPerPage": {
+                "tablet": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "desktop--slider",
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 24
+        },
+        "children": [
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart",
+            "flex-layout.col#slider--cart"
+        ]
+    }
+}

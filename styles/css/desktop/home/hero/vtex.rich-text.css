@@ -1,0 +1,27 @@
+.paragraph--center-text--title {
+    margin        : 0;
+    margin-top    : 121px;
+    font-weight   : 600;
+    font-size     : 48px;
+    line-height   : 40px;
+    letter-spacing: 0px;
+}
+
+.paragraph--center-text--subtitle {
+    color         : #FF8324;
+    font-weight   : 300;
+    font-size     : 16px;
+    line-height   : 19px;
+    letter-spacing: 0px;
+    margin        : 0;
+    margin-top    : 8px;
+}
+
+.paragraph--center-text--description {
+    color         : #1D2734;
+    font-weight   : 300;
+    font-size     : 16px;
+    line-height   : 16.8px;
+    letter-spacing: 0px;
+    margin        : 0;
+}

@@ -1,0 +1,31 @@
+.menuContainer {
+    flex-direction: column;
+}
+
+.menuContainer :global(.vtex-menu-2-x-menuItem--box--item-menu) {
+    text-align     : left;
+    justify-content: start;
+    border-bottom  : 1px solid #1D2734;
+    width          : 250px;
+    height         : 35px;
+    display        : flex;
+    text-align     : left;
+    align-items    : center;
+    font-size      : 12px;
+    font-weight    : 300;
+}
+
+.menuContainer :global(.vtex-menu-2-x-menuItem--box--item-menu):hover {
+    background: rgba(255, 131, 36, 0.2);
+}
+
+.menuItem--menu-icon-header {
+    margin-top: 4px;
+    max-width : 24px;
+    max-height: 24px;
+}
+
+.menuContainer :global(.vtex-menu-2-x-styledLinkContainer--menu-icon-header) {
+    margin : 0;
+    padding: 0;
+}

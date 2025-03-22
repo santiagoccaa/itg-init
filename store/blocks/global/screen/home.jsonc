@@ -1,9 +1,8 @@
 {
-    "store.home":{
-        "blocks":[
-            "responsive-layout.desktop#home",
-            "responsive-layout.phone#home",
-            "responsive-layout.tablet#home"
+    "store.home": {
+        "title": "Store home",
+        "blocks": [
+            "store.home#desktop__home"
         ]
     }
 }

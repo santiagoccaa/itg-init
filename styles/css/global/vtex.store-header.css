@@ -1,4 +1,4 @@
-.headerRowContainer--desktop{
-    display: none;
+.headerRowBackground :global(.vtex-store-header-2-x-headerRowContentContainer){
     visibility: hidden;
+    display: none;
 }

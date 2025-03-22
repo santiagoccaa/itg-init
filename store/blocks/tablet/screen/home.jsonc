@@ -2,8 +2,8 @@
     "responsive-layout.tablet#home": {
         "children": [
             "flex-layout.row#tablet__header",
-            "flex-layout.row#tablet__hero",
-            "flex-layout.row#desktop__slider"
+            "flex-layout.row#tablet",
+            "flex-layout.row#tablet__slider"
         ]
     }
 }

@@ -1,0 +1,66 @@
+{
+    "responsive-layout.desktop#desktop__hero": {
+        "children": [
+            "flex-layout.row#desktop__hero"
+        ]
+    },
+    "flex-layout.row#desktop__hero": {
+        "children": [
+            "image#desktop__hero--image-left",
+            "flex-layout.col#desktop__hero--center-text",
+            "image#desktop__hero--image-right"
+        ],
+        "props": {
+            "blockClass": "desktop__hero"
+        }
+    },
+    "image#desktop__hero--image-left": {
+        "props": {
+            "src": "assets/img/hero/img-left.svg",
+            "blockClass": "desktop__hero--image-left"
+        }
+    },
+    "image#desktop__hero--image-right": {
+        "props": {
+            "src": "assets/img/hero/img-right.svg",
+            "blockClass": "desktop__hero--image-right"
+        }
+    },
+    "flex-layout.col#desktop__hero--center-text": {
+        "children": [
+            "rich-text#center-text--title",
+            "rich-text#center-text--subtitle",
+            "rich-text#center-text--description",
+            "link#center-text--button-shop"
+        ],
+        "props": {
+            "blockClass": "desktop__hero--center-text",
+            "conSizing": "auto"
+        }
+    },
+    "rich-text#center-text--title": {
+        "props": {
+            "text": "!WATCH",
+            "blockClass": "center-text--title"
+        }
+    },
+    "rich-text#center-text--subtitle": {
+        "props": {
+            "text": "ULTRA 2",
+            "blockClass": "center-text--subtitle"
+        }
+    },
+    "rich-text#center-text--description": {
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "center-text--description"
+        }
+    },
+    "link#center-text--button-shop": {
+        "props": {
+            "href": "/",
+            "label": " ",
+            "blockClass": "button-shop"
+        }
+    }
+}

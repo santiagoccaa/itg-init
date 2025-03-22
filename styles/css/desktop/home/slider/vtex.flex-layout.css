@@ -1,0 +1,31 @@
+.flexRow--desktop__slider {
+    height : 430px;
+    display: flex;
+}
+
+.flexRow--desktop__slider :global(.vtex-store-components-3-x-container) {
+    background   : #F0F0F2;
+    width        : 100%;
+    padding-left : 94px;
+    padding-right: 94px;
+}
+
+@media (max-width: 1000px) {
+    .flexRow--desktop__slider :global(.vtex-store-components-3-x-container) {
+        background   : #F0F0F2;
+        width        : 100%;
+        padding-left : 4px;
+        padding-right: 4px;
+    }
+}
+
+.flexRowContent--desktop__slider {
+    height  : 100%;
+    height  : 390px;
+    position: relative;
+}
+
+.flexCol--slider--text {
+    height  : 79px;
+    position: relative;
+}
