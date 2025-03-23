@@ -1,331 +1,36 @@
 {
-    "vtex.menu@2.x:menu#desktop__header__menu-categoryes": {
-        "title": "drop-down menu header",
+    "sticky-layout#4-desktop": {
         "children": [
-            "menu-item#menu-categories"
+            "flex-layout.row#4-desktop",
+            "flex-layout.row#mega-menu"
         ]
     },
-    "menu-item#menu-categories": {
-        "title": "all categories",
+    "flex-layout.row#4-desktop": {
+        "children": [
+            "flex-layout.col#trigger-mega-menu"
+        ]
+    },
+    "flex-layout.row#mega-menu": {
+        "children": [
+            "mega-menu#desktop"
+        ]
+    },
+    "mega-menu#desktop": {
         "props": {
-            "id": "menu-item-shop",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "noFollow": false
-            },
-            "iconProps": {
-                "id": "hpa-hamburguer-menu",
-                "size": 16,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true,
-            "blockClass": "menu-icon-header"
+            "openOnly": "horizontal"
+        }
+    },
+    "flex-layout.col#trigger-mega-menu": {
+        "props": {
+            "verticalAlign": "middle"
         },
-        "blocks": [
-            "vtex.menu@2.x:submenu#menu-categoies--list"
-        ]
-    },
-    "vtex.menu@2.x:submenu#menu-categoies--list": {
         "children": [
-            "vtex.menu@2.x:menu#list--categories"
+            "mega-menu-trigger-btn"
         ]
     },
-    "vtex.menu@2.x:menu#list--categories": {
-        "children": [
-            "menu-item#Deals",
-            "menu-item#Grocery",
-            "menu-item#new-year-goals",
-            "menu-item#valentines-day",
-            "menu-item#game-time",
-            "menu-item#clothing-shoes-accessories",
-            "menu-item#electronics",
-            "menu-item#home-furniture-appliances",
-            "menu-item#toys-video-games",
-            "menu-item#baby",
-            "menu-item#kids",
-            "menu-item#auto-tires",
-            "menu-item#pharmacy-health-wellness",
-            "menu-item#personal-care",
-            "menu-item#beauty",
-            "menu-item#pets",
-            "menu-item#home-improvement",
-            "menu-item#patio-garden",
-            "menu-item#household-essentials"
-        ]
-    },
-    "menu-item#Deals": {
+    "mega-menu-trigger-btn": {
         "props": {
-            "id": "menu-item-deals",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false
-            },
-            "iconToTheRight": true,
-            "text": "Deals",
-            "blockClass": "box--item-menu"
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#deals"
-        ]
-    },
-    "menu-item#Grocery": {
-        "props": {
-            "id": "menu-item-Grocery",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false
-            },
-            "iconToTheRight": true,
-            "text": "Grocery",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#new-year-goals": {
-        "props": {
-            "id": "menu-item-new-year-goals",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/new-year-goals",
-                "noFollow": false
-            },
-            "text": "New Year Goals",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#valentines-day": {
-        "props": {
-            "id": "menu-item-valentines-day",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/valentines-day",
-                "noFollow": false
-            },
-            "text": "Valentine's Day",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#game-time": {
-        "props": {
-            "id": "menu-item-game-time",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/game-time",
-                "noFollow": false
-            },
-            "text": "Game Time",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#clothing-shoes-accessories": {
-        "props": {
-            "id": "menu-item-clothing-shoes-accessories",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/clothing-shoes-accessories",
-                "noFollow": false
-            },
-            "text": "Clothing, Shoes and Accessories",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#electronics": {
-        "props": {
-            "id": "menu-item-electronics",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/electronics",
-                "noFollow": false
-            },
-            "text": "Electronics",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#home-furniture-appliances": {
-        "props": {
-            "id": "menu-item-home-furniture-appliances",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/home-furniture-appliances",
-                "noFollow": false
-            },
-            "text": "Home, Furniture and Appliances",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#toys-video-games": {
-        "props": {
-            "id": "menu-item-toys-video-games",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/toys-video-games",
-                "noFollow": false
-            },
-            "text": "Toys & Video Games",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#baby": {
-        "props": {
-            "id": "menu-item-baby",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/baby",
-                "noFollow": false
-            },
-            "text": "Baby",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#kids": {
-        "props": {
-            "id": "menu-item-kids",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/kids",
-                "noFollow": false
-            },
-            "text": "Kids",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#auto-tires": {
-        "props": {
-            "id": "menu-item-auto-tires",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/auto-tires",
-                "noFollow": false
-            },
-            "text": "Auto & Tires",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#pharmacy-health-wellness": {
-        "props": {
-            "id": "menu-item-pharmacy-health-wellness",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/pharmacy-health-wellness",
-                "noFollow": false
-            },
-            "text": "Pharmacy, Health and Wellness",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#personal-care": {
-        "props": {
-            "id": "menu-item-personal-care",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/personal-care",
-                "noFollow": false
-            },
-            "text": "Personal Care",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#beauty": {
-        "props": {
-            "id": "menu-item-beauty",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/beauty",
-                "noFollow": false
-            },
-            "text": "Beauty",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#pets": {
-        "props": {
-            "id": "menu-item-pets",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/pets",
-                "noFollow": false
-            },
-            "text": "Pets",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#home-improvement": {
-        "props": {
-            "id": "menu-item-home-improvement",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/home-improvement",
-                "noFollow": false
-            },
-            "text": "Home Improvement",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#patio-garden": {
-        "props": {
-            "id": "menu-item-patio-garden",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/patio-garden",
-                "noFollow": false
-            },
-            "text": "Patio & Garden",
-            "blockClass": "box--item-menu"
-        }
-    },
-    "menu-item#household-essentials": {
-        "props": {
-            "id": "menu-item-household-essentials",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/household-essentials",
-                "noFollow": false
-            },
-            "text": "Household Essentials",
-            "blockClass": "box--item-menu"
+            "Drawer": "drawer"
         }
     }
 }

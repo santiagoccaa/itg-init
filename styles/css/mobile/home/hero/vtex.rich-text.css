@@ -16,3 +16,10 @@
     font-weight: 300;
     font-size  : 14px;
 }
+
+.paragraph--descount-text {
+    margin-left: 10px;
+    font-size  : 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+}

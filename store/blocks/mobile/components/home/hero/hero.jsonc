@@ -31,6 +31,7 @@
     },
     "flex-layout.col#hero--content-text": {
         "children": [
+            "flex-layout.row#mobile__hero__descount",
             "rich-text#hero--title",
             "rich-text#hero--subtitle",
             "rich-text#hero--description"
@@ -62,6 +63,20 @@
             "href": "/",
             "label": " ",
             "blockClass": "button--shop-arrow"
+        }
+    },
+    "flex-layout.row#mobile__hero__descount": {
+        "children": [
+            "rich-text#descount-text"
+        ],
+        "props": {
+            "blockClass": "mobile__hero__descount"
+        }
+    },
+    "rich-text#descount-text": {
+        "props": {
+            "text": "20% OFF",
+            "blockClass": "descount-text"
         }
     }
 }

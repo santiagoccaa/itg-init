@@ -11,7 +11,6 @@
 }
 
 .container :global(.vtex-login-2-x-label) {
-    color         : #ffffff;
     padding       : 0;
     font-size     : 14px;
     line-height   : 100%;
@@ -20,4 +19,164 @@
     text-transform: none;
     margin-top    : 2px;
     margin-left   : 2px;
+    color         : #ffffff;
+}
+
+/* */
+
+.content--loginOptions {
+    background: #F5F4F6;
+    min-width : 423px;
+}
+
+.optionsListItem :global(.vtex-login-2-x-button) {
+    width          : 100%;
+    height         : 48px;
+    border-radius  : 40px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.optionsListItem :global(.vtex-button) {
+    background   : transparent;
+    border-radius: 40px;
+    width        : 100%;
+    height       : 48px;
+    padding      : 0;
+    border       : 1px solid #1D2734;
+}
+
+.optionsListItem :global(.vtex-button__label) {
+    padding: 0;
+    width  : 100%;
+}
+
+.optionsListItem :global(.vtex-button__label) span {
+    font-size     : 14px;
+    font-weight   : 400;
+    text-transform: lowercase;
+}
+
+.formTitle {
+    font-size     : 20px;
+    text-transform: uppercase;
+    color         : #0C2340;
+    font-weight   : 300;
+}
+
+/* acces email and password */
+.content--emailAndPassword {
+    background: #F5F4F6;
+    width     : 423px;
+    height    : 375px;
+}
+
+.content--emailAndPassword :global(.vtex-input-prefix__group) {
+    width : 368px;
+    height: 48px;
+    border: none;
+}
+
+.content--emailAndPassword :global(.vtex-styleguide-9-x-input) {
+    width        : 368px;
+    border-radius: 40px;
+    font-size    : 14px;
+    font-weight  : 400;
+    color        : #1D2734;
+}
+
+.content--emailAndPassword :global(.vtex-input__suffix) {
+    position     : absolute;
+    right        : 6px;
+    top          : 0;
+    height       : 100%;
+    border-radius: 50px;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-forgotPasswordLink) {
+    color   : transparent;
+    position: relative;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-forgotPasswordLink)::after {
+    content  : "Reset password";
+    color    : #E56A54;
+    position : absolute;
+    top      : 0;
+    right    : 0;
+    font-size: 14px;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-backButton) {
+    position: absolute;
+    top     : 8px;
+    left    : 0;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-backButton .t-small) {
+    display: none;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-arrowBackIcon) {
+    width : 20px;
+    height: 20px;
+    color : #1D2734;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-sendButton) {
+    margin-left: 0;
+    width      : 100%;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-sendButton .vtex-button) {
+    background   : #1D2734;
+    width        : 368px;
+    height       : 40px;
+    border-radius: 40px;
+    border       : none;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-sendButton .vtex-button__label) {
+    padding: 0;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-dontHaveAccount) {
+    margin-top: 18px;
+    color     : transparent;
+    position  : relative;
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-dontHaveAccount)::after {
+    content  : "Create Acount";
+    color    : #1D2734;
+    font-size: 14px;
+    position : absolute;
+    left     : 60px;
+}
+
+.content--beginCreatePass {
+    background: #F5F4F6;
+    width     : 423px;
+    height    : 219px;
+}
+
+.content--beginCreatePass :global(.vtex-input-prefix__group) {
+    width        : 368px;
+    height       : 48px;
+    border       : none;
+    border-radius: 40px;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-formTitle) {
+    color   : transparent;
+    position: relative;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-formTitle)::after {
+    content  : "Recuperar clave";
+    position : absolute;
+    left     : 40px;
+    color    : red;
+    font-size: 20px;
 }

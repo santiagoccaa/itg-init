@@ -1,7 +1,7 @@
+/*
 .menuContainer {
     flex-direction: column;
 }
-
 .menuContainer :global(.vtex-menu-2-x-menuItem--box--item-menu) {
     text-align     : left;
     justify-content: start;
@@ -13,6 +13,7 @@
     align-items    : center;
     font-size      : 12px;
     font-weight    : 300;
+    position       : relative;
 }
 
 .menuContainer :global(.vtex-menu-2-x-menuItem--box--item-menu):hover {
@@ -28,4 +29,4 @@
 .menuContainer :global(.vtex-menu-2-x-styledLinkContainer--menu-icon-header) {
     margin : 0;
     padding: 0;
-}
+} */
