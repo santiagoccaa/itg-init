@@ -16,17 +16,25 @@
     "flex-layout.col#mobile__hero--content": {
         "children": [
             "flex-layout.col#hero--content-text",
-            "image#hero--content--image",
-            "link#button--shop-arrow"
+            "flex-layout.row#hero--content-image",
+            "flex-layout.row#hero--content-button"
         ],
         "props": {
-            "blockClass": "mobile__hero--content",
-            "colSizing": "auto"
+            "blockClass": "mobile__hero--content"
         }
     },
-    "image#hero--content--image": {
+    "flex-layout.row#hero--content-image": {
+        "children": [
+            "image#content--image"
+        ],
         "props": {
-            "src": "assets/img/hero/reloj.png"
+            "blockClass": "hero--content-image"
+        }
+    },
+    "image#content--image": {
+        "props": {
+            "src": "assets/img/hero/reloj.png",
+            "blockClass": "hero--content--image"
         }
     },
     "flex-layout.col#hero--content-text": {
@@ -56,6 +64,14 @@
         "props": {
             "text": "An amazing product.",
             "blockClass": "hero--description"
+        }
+    },
+    "flex-layout.row#hero--content-button": {
+        "children": [
+            "link#button--shop-arrow"
+        ],
+        "props": {
+            "blockClass": "hero--content-button"
         }
     },
     "link#button--shop-arrow": {

@@ -1,0 +1,13 @@
+.flexRow--desktop__mega-menu__content {
+    /* background: red; */
+    position  : absolute;
+    top       : -10px;
+    left      : -8px;
+}
+
+
+.flexRow--desktop__mega-menu__content :global(.vtex-mega-menu-2-x-menuContainer) {
+    background: purple;
+    margin-top: 30px;
+    min-width : 420px;
+}

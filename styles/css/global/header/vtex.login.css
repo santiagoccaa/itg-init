@@ -8,6 +8,7 @@
     justify-content: center;
     padding        : 0;
     border         : 1px solid #1D2734;
+    position       : relative;
 }
 
 .container :global(.vtex-login-2-x-label) {
@@ -17,8 +18,9 @@
     letter-spacing: 0%;
     font-weight   : 300;
     text-transform: none;
-    margin-top    : 2px;
-    margin-left   : 2px;
+    position      : absolute;
+    top           : 12px;
+    left          : 20px;
     color         : #ffffff;
 }
 

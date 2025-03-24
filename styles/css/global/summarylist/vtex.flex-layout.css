@@ -1,6 +1,10 @@
-.flexRowContent--desktop__products{
-    display: flex;
-    height: 400px;
-    position: relative;
+.flexRowContent--desktop__products {
+    display   : flex;
+    height    : 400px;
+    position  : relative;
     margin-top: 90px;
+}
+
+.flexRow--desktop__products :global(.vtex-store-components-3-x-container) {
+    background: #F0F0F2;
 }

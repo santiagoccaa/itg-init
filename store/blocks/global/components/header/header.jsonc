@@ -26,7 +26,7 @@
     "flex-layout.row#desktop__header--menu-upper": {
         "title": "desktop header content",
         "children": [
-            "sticky-layout#4-desktop",
+            "sticky-layout#desktop__menga-menu",
             "image#menu-upper--logo",
             "search-bar#menu-pper--search",
             "flex-layout.row#menu-upper--navbar",
