@@ -1,7 +1,7 @@
 .searchBarInnerContainer :global(.vtex-input-prefix__group) {
     border       : none;
     border-radius: 40px;
-    min-width    : 240px;
+    width    : 240px;
 }
 
 @media (max-width: 768px) {

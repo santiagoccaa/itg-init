@@ -54,7 +54,8 @@
     "slider-layout#mobile__menu--slider": {
         "props": {
             "itemsPerPage": {
-                "phone": 5
+                "phone": 5,
+                "tablet":8
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",

@@ -157,10 +157,13 @@
     left     : 60px;
 }
 
+/* reset password */
+
 .content--beginCreatePass {
     background: #F5F4F6;
     width     : 423px;
     height    : 219px;
+    position  : relative;
 }
 
 .content--beginCreatePass :global(.vtex-input-prefix__group) {
@@ -178,7 +181,98 @@
 .content--beginCreatePass :global(.vtex-login-2-x-formTitle)::after {
     content  : "Recuperar clave";
     position : absolute;
-    left     : 40px;
-    color    : red;
+    left     : 80px;
+    color    : #0C2340;
     font-size: 20px;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-backButton) {
+    position     : absolute;
+    left         : 8px;
+    top          : 8px;
+    border-radius: 50px;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-backButton .t-small) {
+    display: none;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-arrowBackIcon) {
+    width : 20px;
+    height: 20px;
+    color : #1D2734;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-sendButton) {
+    margin-left: 0;
+}
+
+.content--beginCreatePass :global(.vtex-login-2-x-sendButton .vtex-button) {
+    background   : #1D2734;
+    border-radius: 40px;
+    width        : 368px;
+    height       : 48px;
+    border       : none;
+    color        : #F5F4F6;
+}
+
+/* acces login */
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification) {
+    background: #F5F4F6;
+    width     : 423px;
+    height    : 239px;
+    position  : relative;
+    padding   : 0 !important;
+}
+
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-input-prefix__group) {
+    width        : 368px;
+    height       : 48px;
+    border       : none;
+    border-radius: 40px;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-formTitle) {
+    color   : transparent;
+    position: relative;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-formTitle)::after {
+    content  : "VERIFY YOUR E-MAIL";
+    position : absolute;
+    left     : 80px;
+    color    : #0C2340;
+    font-size: 20px;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-backButton) {
+    position     : absolute;
+    left         : 8px;
+    top          : 8px;
+    border-radius: 50px;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-backButton .t-small) {
+    display: none;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-arrowBackIcon) {
+    width : 20px;
+    height: 20px;
+    color : #1D2734;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-sendButton) {
+    margin-left: 0;
+}
+
+.contentContainer :global(.vtex-login-2-x-content--emailVerification .vtex-login-2-x-sendButton .vtex-button) {
+    background   : #1D2734;
+    border-radius: 40px;
+    width        : 368px;
+    height       : 48px;
+    border       : none;
+    color        : #F5F4F6;
 }
