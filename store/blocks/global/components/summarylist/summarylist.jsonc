@@ -1,5 +1,6 @@
 {
     "flex-layout.row#desktop__products": {
+        "title": "global summary",
         "children": [
             "flex-layout.col#desktop__products--content"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#desktop__products--content": {
+        "title": "global summary content",
         "children": [
             "rich-text#products--content-title",
             "list-context.product-list#demo1"
@@ -23,6 +25,7 @@
         }
     },
     "product-summary.shelf#demo1": {
+        "title": "summary cart",
         "children": [
             "product-summary-image",
             "stack-layout",
@@ -48,6 +51,7 @@
         }
     },
     "slider-layout#desktop--slider-products": {
+        "title": "summary slider",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,

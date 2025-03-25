@@ -1,10 +1,12 @@
 {
     "responsive-layout.desktop#desktop__hero": {
+        "title:": "desktop hero",
         "children": [
             "flex-layout.row#desktop__hero"
         ]
     },
     "flex-layout.row#desktop__hero": {
+        "title": "desktop hero content",
         "children": [
             "image#desktop__hero--image-left",
             "flex-layout.col#desktop__hero--center-text",
@@ -15,18 +17,21 @@
         }
     },
     "image#desktop__hero--image-left": {
+        "title": "desktop hero: image left",
         "props": {
             "src": "assets/img/hero/img-left.svg",
             "blockClass": "desktop__hero--image-left"
         }
     },
     "image#desktop__hero--image-right": {
+        "title": "desktop hero: image right",
         "props": {
             "src": "assets/img/hero/img-right.svg",
             "blockClass": "desktop__hero--image-right"
         }
     },
     "flex-layout.col#desktop__hero--center-text": {
+        "title": "desktop hero text center",
         "children": [
             "rich-text#center-text--title",
             "rich-text#center-text--subtitle",

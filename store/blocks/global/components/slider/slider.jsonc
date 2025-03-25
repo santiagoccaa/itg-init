@@ -1,5 +1,6 @@
 {
     "flex-layout.row#desktop__slider": {
+        "title":"global slider",
         "children": [
             "flex-layout.col#desktop__slider--content"
         ],
@@ -22,6 +23,7 @@
         }
     },
     "slider-layout#desktop--slider": {
+        "title":"slider",
         "props": {
             "itemsPerPage": {
                 "desktop": 3,
@@ -43,7 +45,6 @@
             "flex-layout.col#slider--cart"
         ]
     },
-    // ------- CART PRODUCT
     "flex-layout.col#slider--cart": {
         "children": [
             "image#cart--imagen",

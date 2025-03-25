@@ -1,10 +1,12 @@
 {
     "responsive-layout.mobile#mobile__hero": {
+        "title":"mobile hero section",
         "children": [
             "flex-layout.row#mobile__hero"
         ]
     },
     "flex-layout.row#mobile__hero": {
+        "title":"mobile hero content",
         "children": [
             "flex-layout.col#mobile__hero--content"
         ],
@@ -24,6 +26,7 @@
         }
     },
     "flex-layout.row#hero--content-image": {
+        "title":"mobile hero content image",
         "children": [
             "image#content--image"
         ],
@@ -32,6 +35,7 @@
         }
     },
     "image#content--image": {
+        "title":"hero image center",
         "props": {
             "src": "assets/img/hero/reloj.png",
             "blockClass": "hero--content--image"
@@ -75,6 +79,7 @@
         }
     },
     "link#button--shop-arrow": {
+        "title":"button redireccionar",
         "props": {
             "href": "/",
             "label": " ",
@@ -90,6 +95,7 @@
         }
     },
     "rich-text#descount-text": {
+        "title":"descount",
         "props": {
             "text": "20% OFF",
             "blockClass": "descount-text"

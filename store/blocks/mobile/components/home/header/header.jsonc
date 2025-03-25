@@ -1,10 +1,12 @@
 {
     "responsive-layout.mobile#responsive__header": {
+        "title":"mobile header",
         "children": [
             "flex-layout.row#mobile__header"
         ]
     },
     "flex-layout.row#mobile__header": {
+        "title":"content mobile header",
         "children": [
             "flex-layout.col#mobile__header__menu"
         ],
@@ -13,6 +15,7 @@
         }
     },
     "flex-layout.col#mobile__header__menu": {
+        "title":"mobile header menu navbar and categories",
         "children": [
             "flex-layout.row#mobile__header__menu--mobile-upper",
             "slider-layout#mobile__menu--slider"
@@ -23,6 +26,7 @@
         }
     },
     "flex-layout.row#mobile__header__menu--mobile-upper": {
+        "title":"header navbar, searh, login",
         "children": [
             "image#menu--mobule-upper--logo",
             "image#menu-upper--search",
@@ -52,13 +56,14 @@
         }
     },
     "slider-layout#mobile__menu--slider": {
+        "title":"categories slider",
         "props": {
             "itemsPerPage": {
                 "phone": 5,
                 "tablet":8
             },
             "infinite": true,
-            "showNavigationArrows": "desktopOnly",
+            "showNavigationArrows": "mobileOnly",
             "blockClass": "mobile--slider",
             "centerMode": "to-the-left",
             "centerModeSlidesGap": 24

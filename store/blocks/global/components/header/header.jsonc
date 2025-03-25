@@ -1,11 +1,12 @@
 {
     "responsive-layout.desktop#desktop__responsive__header": {
+        "title":"desktop header",
         "children": [
             "flex-layout.row#desktop__header"
         ]
     },
     "flex-layout.row#desktop__header": {
-        "title": "Desktop Header",
+        "title": "header content",
         "children": [
             "flex-layout.col#desktop__heades--menu"
         ],
@@ -15,6 +16,7 @@
         }
     },
     "flex-layout.col#desktop__heades--menu": {
+        "title":"header navbar, categoris",
         "children": [
             "flex-layout.row#desktop__header--menu-upper",
             "flex-layout.row#desktop__header--menu-button"
