@@ -1,0 +1,128 @@
+.orderByDropdown--content--order-by {
+    max-width  : 240px;
+    height     : 100%;
+    display    : flex;
+    align-items: center;
+}
+
+.orderByButton--content--order-by {
+    background   : #E7E7E7;
+    width        : 240px;
+    height       : 40px;
+    border-radius: 40px;
+    padding      : 0;
+    position     : relative;
+}
+
+.orderByButton--content--order-by::after {
+    content          : "";
+    position         : absolute;
+    left             : 14px;
+    top              : 8px;
+    width            : 20px;
+    height           : 20px;
+    background-image : url("assets/img/icons/mpa-filter-settings.svg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+}
+
+.orderByText--content--order-by {
+    display: none;
+}
+
+.filterPopupTitle--content--order-by {
+    text-transform: lowercase;
+    font-size     : 14px;
+    color         : #1D2734;
+}
+
+.filters--layout {
+    max-width: 184px;
+    min-width: 184px;
+    height   : max-content;
+}
+
+.filter__container--filter--title {
+    display: none;
+}
+
+.filters--layout :global(.vtex-search-result-3-x-filter__container--selectedFilters) {
+    display: none;
+}
+
+.filter--filter {
+    background   : #E7E7E7;
+    min-height   : 36px;
+    border-radius: 40px;
+    border       : 1px solid #1D2734;
+    padding      : 0;
+    display      : flex;
+    align-items  : center;
+    position     : relative;
+}
+
+.filterTitleSpan--filter {
+    margin-left: 16px;
+    font-size  : 14px;
+    font-weight: 400;
+}
+
+.filterIcon--filter {
+    position: absolute;
+    right   : 0;
+}
+
+.filterItem--filter {
+    display    : flex;
+    align-items: center;
+    min-height : 44px;
+}
+
+.filterItem--filter :global(.vtex-checkbox__label) {
+    font-size  : 12px;
+    margin-left: 13px;
+}
+
+.filterItem--filter :global(.vtex-checkbox__container) {
+    margin-left: 16px;
+    width      : 24px;
+    height     : 24px;
+}
+
+.galleryItem--normal {
+    padding   : 4px;
+    height    : 106px;
+}
+
+.galleryItem--normal :global(.vtex-product-summary-2-x-description) {
+    max-height        : 45px;
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height       : 19px;
+    word-break        : break-word;
+}
+.gallery--whole{
+    height: max-content;
+    row-gap: 4px;
+}
+.galleryItem--normal :global(.vtex-product-summary-2-x-productPriceClass) {
+    display       : flex;
+    flex-direction: column-reverse;
+    width         : 100%;
+    text-align    : left;
+}
+
+.galleryItem--normal :global(.vtex-product-summary-2-x-interestRate) {
+    display: none;
+}
+
+.galleryItem--normal :global(.vtex-product-summary-2-x-installmentContainer) {
+    display: none;
+}
+
+.galleryItem--normal :global(.vtex-product-summary-2-x-currencyContainer) {
+    font-size  : 20px;
+    font-weight: 600;
+}

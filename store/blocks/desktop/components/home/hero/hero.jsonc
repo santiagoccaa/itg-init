@@ -1,6 +1,6 @@
 {
     "responsive-layout.desktop#desktop__hero": {
-        "title:": "desktop hero",
+        "title": "desktop hero",
         "children": [
             "flex-layout.row#desktop__hero"
         ]

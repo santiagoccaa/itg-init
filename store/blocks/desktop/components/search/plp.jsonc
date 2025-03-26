@@ -1,0 +1,118 @@
+{
+    "search-result-layout.desktop": {
+        "children": [
+            "flex-layout.row#desktop__search-result"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    },
+    "flex-layout.row#desktop__search-result": {
+        "children": [
+            "flex-layout.col#content__bordery-filter"
+        ],
+        "props": {
+            "blockClass": "desktop__search-result"
+        }
+    },
+    "flex-layout.col#content__bordery-filter": {
+        "children": [
+            "flex-layout.row#container__result--order-by",
+            "flex-layout.row#filter-and-products"
+        ]
+    },
+    "flex-layout.row#filter-and-products": {
+        "children": [
+            "filter-navigator.v3#filter",
+            "search-content"
+        ],
+        "props": {
+            "blockClass": "filter-and-products",
+            "colSizing": "auto"
+        }
+    },
+    "search-content": {
+        "title": "result search",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "gallery": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 3
+                },
+                {
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": 3
+                },
+                {
+                    "name": "many",
+                    "component": "MayBySummary",
+                    "itemsPerRow": {
+                        "desktop": 3
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf",
+            "MyByLineSummary": "product-summary.shelf"
+        }
+    },
+    "product-summary.shelf": {
+        "children": [
+            "flex-layout.row#cart-info-product"
+        ],
+        "props": {
+            "blockClass": "custom-product-summary"
+        }
+    },
+    "flex-layout.row#cart-info-product": {
+        "children": [
+            "product-summary-image",
+            "flex-layout.col#description-and-price"
+        ]
+    },
+    "flex-layout.col#description-and-price": {
+        "children": [
+            "product-summary-description",
+            "product-summary-price"
+        ]
+    },
+    "flex-layout.row#container__result--order-by": {
+        "children": [
+            "flex-layout.row#order-by"
+        ]
+    },
+    "flex-layout.row#order-by": {
+        "children": [
+            "rich-text#text--order-by",
+            "order-by.v2#content--order-by"
+        ],
+        "props": {
+            "blockClass": "roder-by"
+        }
+    },
+    "rich-text#text--order-by": {
+        "props": {
+            "text": "Clothing, Shoes and Accesories",
+            "blockClass": "text--order-by"
+        }
+    },
+    "order-by.v2#content--order-by": {
+        "title": "Order by result",
+        "props": {
+            "blockClass": "content--order-by"
+        }
+    },
+    "filter-navigator.v3#filter": {
+        "title": "Filter Naviagation",
+        "props": {
+            "blockClass": "filter"
+        }
+    }
+}
